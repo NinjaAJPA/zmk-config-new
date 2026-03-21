@@ -32,7 +32,8 @@
             &kp B     &kp V        &kp C     &kp X     &kp Z    &kp LSHFT      &kp F     &kp G     &kp H     &kp G      &kp H     &kp J     &kp K     &kp L    &kp SEMI  &kp APOS  &kp ENTER &kp ENTER
             &kp LGUI  &kp LALT    &kp SPACE  &kp LGUI  &kp LALT &kp LCTRL     &kp V     &kp B     &kp N     &kp B      &kp N     &kp M     &kp COMMA &kp DOT  &kp SLASH &kp RSHFT &kp UP    &mo LOWER
 
-            &kp LEFT  &kp DOWN     &kp RIGHT &kp LCTRL &kp LALT &kp LMETA &kp SPACE &kp SPACE &kp ENTER &kp BSPC   &kp SPACE &kp SPACE &kp RMETA &kp RALT &kp RCTRL &kp LEFT  &kp DOWN  &kp RIGHT
+            &kp J  &kp K     &kp L &kp M &kp N &kp O &kp P &kp Q &kp R &kp BSPC   &kp SPACE &kp SPACE &kp RMETA &kp RALT &kp RCTRL &kp LEFT  &kp DOWN  &kp RIGHT
+            &kp A  &kp B     &kp C &kp D &kp E &kp F &kp G &kp H &kp I &kp BSPC   &kp SPACE &kp SPACE &kp RMETA &kp RALT &kp RCTRL &kp LEFT  &kp DOWN  &kp RIGHT
             >;
         };
 
