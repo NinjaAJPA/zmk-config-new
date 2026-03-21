@@ -1,7 +1,6 @@
 #include "bfo9000.dtsi"
 
 &default_transform { 
-    col-offset = <6>;
     rotation = <ROT_90>;
 };
 
