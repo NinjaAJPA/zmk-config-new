@@ -1,7 +1,8 @@
 #include "bfo9000.dtsi"
 
 &default_transform { 
-    rotation = <ROT_90>;
+    col-offset = <6>;
+    row-offset = <6>;
 };
 
 &kscan0 {
