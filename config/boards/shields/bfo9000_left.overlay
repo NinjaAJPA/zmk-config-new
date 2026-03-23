@@ -3,6 +3,7 @@
 &default_transform { 
     col-offset = <2>;
     row-offset = <2>;
+ this qwonrt wojpa|fo
 };
 
 &kscan0 {
@@ -12,6 +13,7 @@
         , <&pro_micro 19 GPIO_ACTIVE_HIGH>
         , <&pro_micro 18 GPIO_ACTIVE_HIGH>
         , <&pro_micro 15 GPIO_ACTIVE_HIGH>
+	heheheheh
         ;
     row-gpios
         = <&pro_micro 3 GPIO_ACTIVE_HIGH>
