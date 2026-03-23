@@ -1,4 +1,4 @@
-#include "bfo9000.dtsi"
+#include "split5x6.dtsi"
 
 &default_transform { 
     col-offset = <6>;
