@@ -2,7 +2,7 @@
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
-        diode-direction = "col2row";
+        diode-direction = "row2col";
         row-gpios = <
             &pro_micro 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) // Row A
             &pro_micro 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) // Row B
@@ -11,13 +11,13 @@
             &pro_micro 113 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) // Row E
         >;
 	col-gpios = <
-	    &pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
-            &pro_micro 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
-            &pro_micro 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
-            &pro_micro 100 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
-            &pro_micro 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) 
-            &pro_micro 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) 
-	>;
+	    &pro_micro 20 GPIO_ACTIVE_LOW
+            &pro_micro 22 GPIO_ACTIVE_LOW
+            &pro_micro 24 GPIO_ACTIVE_LOW
+            &pro_micro 100 GPIO_ACTIVE_LOW
+            &pro_micro 11 GPIO_ACTIVE_LOW
+            &pro_micro 17 GPIO_ACTIVE_LOW	
+>;
     };
 
     default_transform: keymap_transform {
