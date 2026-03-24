@@ -4,19 +4,19 @@
         wakeup-source;
         diode-direction = "row2col";
         row-gpios = <
-            &pro_micro 031 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) // Row A
-            &pro_micro 029 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) // Row B
-            &pro_micro 002 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) // Row C
+            &pro_micro 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) // Row A
+            &pro_micro 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) // Row B
+            &pro_micro 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) // Row C
             &pro_micro 115 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) // Row D
             &pro_micro 113 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) // Row E
         >;
 	col-gpios = <
-	    &pro_micro 020 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
-            &pro_micro 022 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
-            &pro_micro 024 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+	    &pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &pro_micro 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &pro_micro 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
             &pro_micro 100 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
-            &pro_micro 011 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) 
-            &pro_micro 017 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) 
+            &pro_micro 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) 
+            &pro_micro 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP) 
 	>;
     };
 
